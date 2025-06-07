@@ -1,0 +1,29 @@
+{
+  "policies": {
+    "ExtensionSettings": {
+      "*": {
+        "installation_mode": "allowed"
+      },
+      "uBlock Origin": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "Wappalyzer": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/wappalyzer/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "NoScript": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/noscript/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "Cookie AutoDelete": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "User-Agent Switcher": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/user-agent-switcher-revived/latest.xpi",
+        "installation_mode": "force_installed"
+      }
+    }
+  }
+}
