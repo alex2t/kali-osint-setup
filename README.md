@@ -39,3 +39,20 @@ To automatically install the recommended Firefox extensions:
 sudo mkdir -p /usr/lib/firefox/distribution/
 sudo cp firefox-policies/policies.json /usr/lib/firefox/distribution/cls
 
+### 🧹 System Cleanup Script
+
+To free up space and keep your Kali OSINT workstation running smoothly, use the included `clean_kali.sh` script.
+
+#### 📦 What It Does
+- Clears APT cache and unused packages
+- Prunes system logs older than 7 days
+- Deletes thumbnail and download caches
+- Removes old bash history backups
+
+#### ▶️ How to Run It
+
+```bash
+chmod +x clean_kali.sh
+./clean_kali.sh
+
+
