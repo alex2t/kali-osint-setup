@@ -38,6 +38,7 @@ To automatically install the recommended Firefox extensions:
 ```bash
 sudo mkdir -p /usr/lib/firefox/distribution/
 sudo cp firefox-policies/policies.json /usr/lib/firefox/distribution/cls
+```
 
 ### 🧹 System Cleanup Script
 
