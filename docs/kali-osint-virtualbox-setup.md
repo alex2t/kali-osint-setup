@@ -175,13 +175,6 @@ Once your setup is complete and tested:
 | Video Memory  | 128 MB        | Max it out                         |
 | Storage       | 20 GB+        | Use Dynamically Allocated (VDI)    |
 
----
-
-## 11. 🌐 Browser Setup for OSINT Investigations
-
-<... content omitted for brevity ...>
-
----
 
 ## 11. 🌐 Browser Setup for OSINT Investigations
 

@@ -57,3 +57,4 @@ chmod +x clean_kali.sh
 ./clean_kali.sh
 
 
+
