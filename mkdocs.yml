@@ -9,4 +9,9 @@ nav:
   - OSINT Environment: OSINT_Environment_Kali_vs_Tails.md
   - theHarvester Guide: theHarvester_OSINT_Guide.md
 
+extra:
+  meta:
+    - name: robots
+      content: noindex
+
   

@@ -1,6 +1,7 @@
 # Kali OSINT Setup
 
 This repo provides a one-step install script and guidance to turn your Kali Linux VM into a full-featured OSINT workstation.
+📘 **View the full documentation here** 👉 [kali-osint-setup Docs](https://alex2t.github.io/kali-osint-setup/robots.txt)
 
 ## 🚀 Quick Start
 
@@ -26,10 +27,6 @@ chmod +x setup_osint_tools.sh
 - Sherlock
 - Holehe
 - Social Analyzer
-
-## 🌐 Browser Recommendations
-
-See [docs/browser-extensions.md](docs/browser-extensions.md) for privacy-focused Firefox/Chromium setup and extensions.
 
 ## 🔌 Firefox Extension Auto-Install
 
