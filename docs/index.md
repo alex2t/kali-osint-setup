@@ -69,5 +69,17 @@ In-depth reference manual for using theHarvester for passive reconnaissance. Inc
 - Wordlist management and batch scanning tips
 
 ---
+## 🧰6. [Free OSINT Tools List](Free_OSINT_Tools_List.md)
 
+**Description:**  
+A curated directory of completely free and open-source OSINT tools across multiple domains—general reconnaissance, subdomain discovery, phone/email tracking, image metadata, dark web crawling, and username verification. Ideal for analysts, penetration testers, and threat hunters operating without commercial tools.
+
+**Key Sections:**
+- Categorized tool list: General, Specific, Social Media, Metadata
+- GitHub and official site links for each tool
+- Focused only on tools with no paid tiers or usage restrictions
+- Ideal for offline labs, workshops, and training setups
+- Includes tools like Amass, IntelOwl, ExifTool, OnionScan, and more
+
+---
 

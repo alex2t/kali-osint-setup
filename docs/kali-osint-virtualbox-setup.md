@@ -9,7 +9,7 @@ This guide walks you through the full process of setting up a Kali Linux virtual
 
 Before starting, ensure the following:
 
-- **Host OS:** Windows 11 (64-bit)
+- **Host OS:** Windows, IOS,Linux
 - **RAM:** At least 8 GB total on your host machine (to allocate 4 GB+ to Kali)
 - **Disk Space:** At least 30 GB free
 
@@ -183,19 +183,39 @@ Once your setup is complete and tested:
 - **LibreWolf** (privacy-hardened)
 - **Chromium** + privacy extensions
 
-### 🧩 Extensions to Install:
+## 🧩 Extensions to Install (Firefox Only)
 
-| Extension             | Purpose                                   |
-|-----------------------|-------------------------------------------|
-| uBlock Origin         | Blocks trackers and ads                   |
-| User-Agent Switcher   | Spoofs browser/OS fingerprints            |
-| Cookie AutoDelete     | Deletes cookies automatically             |
-| Wappalyzer            | Identifies web technologies               |
-| NoScript              | Blocks unwanted JS execution              |
-| Dark Reader           | Applies dark mode for readability         |
-| SingleFile            | Save entire web pages as single HTML file |
-| Copytables            | Copy HTML tables easily                   |
-| Shodan Plugin         | Display IP/domain intel via Shodan        |
+| Extension             | Purpose                                   | Firefox Add-on Link |
+|-----------------------|-------------------------------------------|----------------------|
+| uBlock Origin         | Blocks trackers and ads                   | [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/) |
+| User-Agent Switcher   | Spoofs browser/OS fingerprints            | [User-Agent Switcher](https://addons.mozilla.org/firefox/addon/uaswitcher/) |
+| Cookie AutoDelete     | Deletes cookies automatically             | [Cookie AutoDelete](https://addons.mozilla.org/firefox/addon/cookie-autodelete/) |
+| Wappalyzer            | Identifies web technologies               | [Wappalyzer](https://addons.mozilla.org/firefox/addon/wappalyzer/) |
+| NoScript              | Blocks unwanted JS execution              | [NoScript](https://addons.mozilla.org/firefox/addon/noscript/) |
+| Dark Reader           | Applies dark mode for readability         | [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/) |
+| SingleFile            | Save entire web pages as single HTML file | [SingleFile](https://addons.mozilla.org/firefox/addon/single-file/) |
+| Copytables            | Copy HTML tables easily                   | [Copytables](https://addons.mozilla.org/firefox/addon/copytables/) |
+| Shodan Plugin         | Display IP/domain intel via Shodan        | [Shodan](https://addons.mozilla.org/firefox/addon/shodan/) |
+
+---
+
+## 🧰 Free Online Tools Useful in OSINT
+
+- [🔍 Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
+- [🔗 URLScan.io (Scan & analyze URLs)](https://urlscan.io)
+- [📎 VirusTotal (Scan files & URLs)](https://www.virustotal.com)
+- [📨 URLClean (Deobfuscate/redact URLs)](https://urlclean.com/)
+- [📱 Phone Number Search (CZ)](https://phonebook.cz/)
+- [📚 PDF to PowerPoint Converter](https://smallpdf.com/pdf-to-ppt)
+- [🌍 IntelX (search leaked content & OSINT)](https://intelx.io)
+- [📸 Archive.today (Snapshot any web page)](https://archive.ph/)
+- [🕵️‍♀️ Whois Lookup](https://who.is)
+- [📍 IP Info](https://ipinfo.io)
+- [🧭 Censys](https://search.censys.io/)
+- [🌐 Wayback Machine](https://web.archive.org/)
+- [👁️ SpiderFoot (demo)](https://demo.spiderfoot.net/)
+
+---
 
 ### ⚠️ Privacy Tweaks in Firefox:
 
