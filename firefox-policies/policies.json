@@ -39,6 +39,10 @@
       "Shodan Plugin": {
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/shodan/latest.xpi",
         "installation_mode": "force_installed"
+      },
+       "Firefox Multi-Account Containers": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/multi-account-containers/latest.xpi",
+        "installation_mode": "force_installed"
       }
     },
     "Bookmarks": {
