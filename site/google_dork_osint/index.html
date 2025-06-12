@@ -415,6 +415,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#5-multi-parameter-search-query-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Multi-parameter search query 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-multi-parameter-search-query2" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Multi-parameter search query(2)
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -453,6 +471,21 @@
       📎 Suggested Next Steps
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="📎 Suggested Next Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sheet-list-from-the-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sheet List from the web :
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -640,6 +673,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#5-multi-parameter-search-query-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Multi-parameter search query 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-multi-parameter-search-query2" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Multi-parameter search query(2)
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -678,6 +729,21 @@
       📎 Suggested Next Steps
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="📎 Suggested Next Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sheet-list-from-the-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sheet List from the web :
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -857,6 +923,16 @@
 </code></pre>
 <p>Refines results to government domains. You can change <code>.gov</code> to <code>.edu</code>, <code>.org</code>, or country-specific domains like <code>.fr</code>, <code>.de</code>.</p>
 <hr />
+<h3 id="5-multi-parameter-search-query-1">5.  Multi-parameter search query 1</h3>
+<pre><code class="language-text">(&quot;Spiderfoot&quot;) (intext:tutorial OR intext:&quot;cheat sheet&quot;) (filetype:pdf OR filetype:ppt OR filetype:pptx)
+</code></pre>
+<p>Each group is in parentheses for clarity.Google treats whitespace as AND by default.</p>
+<hr />
+<h3 id="6-multi-parameter-search-query2">6.  Multi-parameter search query(2)</h3>
+<pre><code class="language-text">&quot;Google Dork&quot; site:github.com (sheet OR list OR query OR advanced OR osint) after:2021-01-01
+</code></pre>
+<p>OR — any of these related keywords</p>
+<hr />
 <h2 id="practical-tips-for-effective-dorking">🎯 Practical Tips for Effective Dorking</h2>
 <ul>
 <li>Use quotes for <strong>exact phrases</strong>: <code>"john smith"</code> instead of <code>john smith</code></li>
@@ -892,7 +968,82 @@
 <li>Add browser extensions like <strong>Shodan Plugin</strong> to enhance in-browser reconnaissance.</li>
 </ul>
 <hr />
-<p>Let this be your entry point into structured, legal, and effective open-source intelligence gathering using the world’s most powerful search engine.</p>
+<p>🕵️‍♂️ Google Dorks Cheat Sheet for Hidden Paths &amp; Exposed Files</p>
+<blockquote>
+<p>📋 <em>Table adapted from <a href="https://github.com/sudosu01/-Google-Dorks-Cheat-Sheet-for-Hidden-Paths-Exposed-Files">this GitHub repository</a>.</em><br />
+Original author unknown. All credit to the creator.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>Google Dork</strong></th>
+<th><strong>What It Finds / Does</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>inurl:web.config</code></td>
+<td>Finds exposed ASP.NET configuration files. May contain DB connection strings, secrets.</td>
+</tr>
+<tr>
+<td><code>intitle:"index of" "web.config"</code></td>
+<td>Searches for open directory listings containing <code>web.config</code>.</td>
+</tr>
+<tr>
+<td><code>inurl:.htaccess</code></td>
+<td>Finds exposed <code>.htaccess</code> files used by Apache (can reveal rules, paths, restrictions).</td>
+</tr>
+<tr>
+<td><code>inurl:.htpasswd</code></td>
+<td>Looks for Apache password files (used with <code>.htaccess</code>). May reveal hashed passwords.</td>
+</tr>
+<tr>
+<td><code>inurl:.env</code></td>
+<td>Exposes <code>.env</code> files—used in Laravel, Node.js, etc. Often includes API keys, DB creds.</td>
+</tr>
+<tr>
+<td><code>ext:bak OR ext:old OR ext:backup inurl:admin</code></td>
+<td>Finds backup/old files in admin directories (may contain original code/configs).</td>
+</tr>
+<tr>
+<td><code>intitle:"index of" ".git"</code></td>
+<td>Shows exposed <code>.git</code> repositories—can leak full project source code.</td>
+</tr>
+<tr>
+<td><code>intitle:"index of" ".svn"</code></td>
+<td>Finds exposed Subversion (SVN) version control directories.</td>
+</tr>
+<tr>
+<td><code>filetype:sql "insert into" OR "create table"</code></td>
+<td>Searches for SQL database dumps, usually from MySQL or PostgreSQL.</td>
+</tr>
+<tr>
+<td><code>filetype:json "mongo" OR "password"</code></td>
+<td>Finds JSON files with MongoDB configs or other sensitive credentials.</td>
+</tr>
+<tr>
+<td><code>intitle:"index of" "error_log"</code></td>
+<td>Finds open error log files (can contain paths, errors, user info).</td>
+</tr>
+<tr>
+<td><code>intitle:"phpinfo()" "PHP Version"</code></td>
+<td>Locates PHP info pages — these expose server config, installed extensions.</td>
+</tr>
+<tr>
+<td><code>intitle:"index of" (config|backup|admin|database)</code></td>
+<td>Finds open directories with config/backup/admin/database files.</td>
+</tr>
+<tr>
+<td><code>inurl:wp-content/debug.log</code></td>
+<td>Finds exposed debug logs in WordPress installs — may include stack traces, errors.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sheet-list-from-the-web">Sheet List from the web :</h3>
+<p>-
+         - <a href="https://hackersonlineclub.com/google-hacking/">hackersonlineclub.com/google-hacking</a>
+         - <a href="https://www.boxpiper.com/posts/google-dork-list">www.boxpiper.com/posts/google-dork-list</a>
+         - <a href="https://www.boxpiper.com/posts/top-35-google-dorks-list">www.boxpiper.com/posts/top-35-google-dorks-list</a></p>
 
 
 

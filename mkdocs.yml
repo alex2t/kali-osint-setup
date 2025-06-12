@@ -8,6 +8,7 @@ nav:
   - Google Dorking: google_dork_osint.md
   - OSINT Environment: OSINT_Environment_Kali_vs_Tails.md
   - theHarvester Guide: theHarvester_OSINT_Guide.md
+  - Osint Toolkit : Free_OSINT_Tools_List.md
 
 extra:
   meta:
