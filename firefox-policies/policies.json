@@ -8,6 +8,14 @@
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
         "installation_mode": "force_installed"
       },
+      "User-Agent Switcher": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/user-agent-switcher-revived/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "Cookie AutoDelete": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/latest.xpi",
+        "installation_mode": "force_installed"
+      },
       "Wappalyzer": {
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/wappalyzer/latest.xpi",
         "installation_mode": "force_installed"
@@ -16,14 +24,96 @@
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/noscript/latest.xpi",
         "installation_mode": "force_installed"
       },
-      "Cookie AutoDelete": {
-        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/latest.xpi",
+      "Dark Reader": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi",
         "installation_mode": "force_installed"
       },
-      "User-Agent Switcher": {
-        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/user-agent-switcher-revived/latest.xpi",
+      "SingleFile": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/single-file/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "Copytables": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/copytables/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "Shodan Plugin": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/shodan/latest.xpi",
         "installation_mode": "force_installed"
       }
+    },
+    "Bookmarks": {
+      "toolbar": [
+        {
+          "title": "Google Hacking DB",
+          "url": "https://www.exploit-db.com/google-hacking-database"
+        },
+        {
+          "title": "URLScan.io",
+          "url": "https://urlscan.io"
+        },
+        {
+          "title": "VirusTotal",
+          "url": "https://www.virustotal.com/"
+        },
+        {
+          "title": "URLClean",
+          "url": "https://urlclean.github.io/"
+        },
+        {
+          "title": "Phone Number Search (CZ)",
+          "url": "https://www.truecaller.com/"
+        },
+        {
+          "title": "PDF to PPT Converter",
+          "url": "https://www.ilovepdf.com/pdf_to_powerpoint"
+        },
+        {
+          "title": "IntelX",
+          "url": "https://intelx.io"
+        },
+        {
+          "title": "Archive.today",
+          "url": "https://archive.today"
+        },
+        {
+          "title": "Whois Lookup",
+          "url": "https://who.is/"
+        },
+        {
+          "title": "IP Info",
+          "url": "https://ipinfo.io/"
+        },
+        {
+          "title": "Censys",
+          "url": "https://search.censys.io/"
+        },
+        {
+          "title": "Wayback Machine",
+          "url": "https://web.archive.org/"
+        },
+        {
+          "title": "SpiderFoot (demo)",
+          "url": "https://demo.spiderfoot.net/"
+        }
+      ]
+    },
+    "Preferences": {
+      "media.peerconnection.enabled": false,
+      "geo.enabled": false
+    },
+    "DisablePrivateBrowse": false,
+    "DisableFirefoxAccounts": true,
+    "BlockAboutConfig": true,
+    "Cookies": {
+      "Behavior": "reject-trackers"
+    },
+    "TrackingProtection": {
+      "Enabled": true,
+      "Locked": false
+    },
+    "DOH": {
+      "Enabled": true,
+      "ProviderURL": "https://mozilla.cloudflare-dns.com/dns-query"
     }
   }
 }
