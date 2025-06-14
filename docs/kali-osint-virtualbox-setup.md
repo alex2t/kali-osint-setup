@@ -235,33 +235,6 @@ Once your setup is complete and tested:
 
 ---
 
-## 12. 🧱 Using Clean Browser Profiles
-
-### Why?
-To avoid cross-contamination between investigations and prevent tracking.
-
-### Options:
-- **New Firefox Profile**:
-  ```bash
-  firefox-esr --ProfileManager
-  ```
-  Create one per investigation (e.g., `target-a`, `target-b`).
-
-- **Firefox Containers**:
-  - Install: Firefox Multi-Account Containers
-  - Use one container per investigation (e.g., Company-A, Threat-Actor-X)
-
-- **Private Mode**:
-  - Use `Ctrl + Shift + P` for temporary isolation
-
-| Isolation Level     | Best Method          |
-|---------------------|----------------------|
-| Full                | New profile per case |
-| Medium              | Firefox containers   |
-| Temporary           | Private window       |
-| Max Stealth         | Clean VM/browser     |
-
----
 
 ## 13. 🔐 Installing NordVPN (Optional)
 

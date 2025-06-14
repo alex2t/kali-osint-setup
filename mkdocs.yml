@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - Kali Setup: kali-osint-virtualbox-setup.md
   - Resize Kali VM: resize-kali-vm.md
+  - Browser: firefox.md
   - Google Dorking: google_dork_osint.md
   - OSINT Environment: OSINT_Environment_Kali_vs_Tails.md
   - theHarvester Guide: theHarvester_OSINT_Guide.md

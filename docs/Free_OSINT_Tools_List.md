@@ -9,6 +9,7 @@
 | MISP | Threat intelligence platform | [GitHub](https://github.com/MISP/MISP) |
 | DataSploit | Automates OSINT gathering and visualization | [GitHub](https://github.com/datasploit/datasploit) |
 | OnionScan | Scans/analyzes Dark Web `.onion` services | [GitHub](https://github.com/s-rah/onionscan) |
+| Photon | Web crawler that finds and downloads open data from a target URL| [GitHub](https://github.com/s0md3v/Photon) |
 
 ## 🔍 Specific Investigation Tools (Free)
 
@@ -38,3 +39,4 @@
 |------|----------------|------|
 | CheckUsernames | Checks username availability across sites | [GitHub](https://github.com/) |
 | SpinXO | Username generator/checker | [Visit](https://www.spinxo.com/) |
+| Osintgram |  Extracts data from instagram  username. | [Visit](https://github.com/Datalux/Osintgram) |
