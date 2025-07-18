@@ -53,6 +53,13 @@ To free up space and keep your Kali OSINT workstation running smoothly, use the 
 ```bash
 chmod +x clean_kali.sh
 ./clean_kali.sh
+```
 
+### 🔎 crt.sh Subdomain Lookup Script
 
+Use the `scripts/crtsh_lookup.py` helper to enumerate subdomains using the free crt.sh service.
 
+```bash
+python3 scripts/crtsh_lookup.py example.com -o subdomains.txt
+
+```
